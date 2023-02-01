@@ -1,4 +1,4 @@
-package com.entry.controller;
+package com.pro.controller;
 
 import java.util.List;
 
@@ -12,11 +12,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-
-import com.entry.model.Data;
-import com.entry.model.Entry;
-import com.entry.model.EntryDto;
-import com.entry.repository.EntryRepository;
+import com.pro.model.Data;
+import com.pro.model.Entry;
+import com.pro.model.EntryDto;
+import com.pro.repository.EntryRepository;
 
 @RestController
 public class Entrys_Controller {

@@ -1,4 +1,4 @@
-package com.entry.model;
+package com.pro.model;
 
 public class EntryDto {
 	private String title;
